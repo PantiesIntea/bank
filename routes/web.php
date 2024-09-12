@@ -13,7 +13,7 @@ use App\Http\Controllers\OnlineApplicationController;
 Route::middleware(['web', SetLocale::class])->group(function () {
 
     // Главная страница
-    Route::get('/index', function () {
+    Route::get('/', function () {
         return view('index');
     })->name('home');
 

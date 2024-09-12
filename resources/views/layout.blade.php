@@ -1,6 +1,23 @@
-@section('header')
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/custom.select.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/changes18.01.css">
+	<link rel="stylesheet" href="css/changes19.01.css">
+	<title>Davrbank</title>
+</head>
+<body>
 
-<div class="overlay"></div>
+	<div class="overlay"></div>
 
 	<div class="mobile-menu">
 		<div class="container">
@@ -659,146 +676,154 @@
 			</div>
 		</div>
 	</header>
-@endsection
 
-@section('footer')
-<footer class="footer">
-    <div class="container">
-        <div class="footer-wrap">
-            <div class="footer-left">
-                <ul class="footer-menu">
-                    <li>
-                        <a href="about">О банке</a>
-                    </li>
-                    <li>
-                        <a href="#">Вакансии</a>
-                    </li>
-                    <li>
-                        <a href="#">Банкоматы</a>
-                    </li>
-                    <li>
-                        <a href="#">Филиалы</a>
-                    </li>
-                    <li>
-                        <a href="rates">Курсы валют</a>
-                    </li>
-                    <li>
-                        <a href="#">Частным клиентам</a>
-                    </li>
-                    <li>
-                        <a href="business">Для бизнеса</a>
-                    </li>
-                    <li>
-                        <a href="#">Микрозаймы</a>
-                    </li>
-                    <li>
-                        <a href="#">Ипотека</a>
-                    </li>
-                    <li>
-                        <a href="#">Автокредиты</a>
-                    </li>
-                    <li>
-                        <a href="cards">Карты</a>
-                    </li>
-                    <li>
-                        <a href="#">Вклады</a>
-                    </li>
-                    <li>
-                        <a href="#">Экспресс-оплата</a>
-                    </li>
-                    <li>
-                        <a href="#">Контакты</a>
-                    </li>
-                    <li>
-                        <a href="#">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="#">Виртуальная приемная</a>
-                    </li>
-                </ul>
-                <div class="footer-info">
-                    <p>
-                        100057, Узбекистан, г.Ташкент, Алмазарский р-н, ул. Шимолий Олмазор, дом 17Б
-                        2017 – 2021 Частный акционерный коммерческий банк «Давр Банк» 
-                    </p>
-                    <p>
-                        ЧАКБ «ДАВР БАНК» Генеральная лицензия № 71 ЦБ РУз от 29 сентября 2001 г.
-                    </p>
-                </div>
-            </div>
-            <div class="footer-right">
-                <div class="footer-right__wrap">
-                    <div class="footer-right__item">
-                        <a href="#">71 207-40-40</a>
-                        <p>
-                            Единая информационная служба
-                        </p>
-                    </div>
-                    <div class="footer-right__item">
-                        <a href="#">71 248-35-10</a>
-                        <p>
-                            Телефон доверия
-                        </p>
-                    </div>
-                    <ul class="footer-follow">
-                        <li>
-                            <a href="#" target="_blank">
-                                <img src="img/fb.svg" alt="ico">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <img src="img/ok.svg" alt="ico">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <img src="img/tg.svg" alt="ico">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <img src="img/tw.svg" alt="ico">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <img src="img/yt.svg" alt="ico">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank">
-                                <img src="img/inst.svg" alt="ico">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-right__wrap">
-                    <div class="footer-right__item">
-                        <a href="#">info@davrbank.uz</a>
-                        <p>
-                            Электронная почта
-                        </p>
-                    </div>
-                    <div class="footer-download">
-                        <a href="#">
-                            <img src="img/google-play-white.svg" alt="ico">
-                        </a>
-                        <a href="#">
-                            <img src="img/app-store-white.svg" alt="ico">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copy">
-            <div>
-                &copy; DAVR BANK 2021
-            </div>
-            <div>
-                Разработка сайта — FlyDev
-            </div>
-        </div>
-    </div>
-</footer>
-@endsection
+	@yield('content')
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-wrap">
+				<div class="footer-left">
+					<ul class="footer-menu">
+						<li>
+							<a href="about">О банке</a>
+						</li>
+						<li>
+							<a href="#">Вакансии</a>
+						</li>
+						<li>
+							<a href="#">Банкоматы</a>
+						</li>
+						<li>
+							<a href="#">Филиалы</a>
+						</li>
+						<li>
+							<a href="rates">Курсы валют</a>
+						</li>
+						<li>
+							<a href="#">Частным клиентам</a>
+						</li>
+						<li>
+							<a href="business">Для бизнеса</a>
+						</li>
+						<li>
+							<a href="#">Микрозаймы</a>
+						</li>
+						<li>
+							<a href="#">Ипотека</a>
+						</li>
+						<li>
+							<a href="#">Автокредиты</a>
+						</li>
+						<li>
+							<a href="cards">Карты</a>
+						</li>
+						<li>
+							<a href="#">Вклады</a>
+						</li>
+						<li>
+							<a href="#">Экспресс-оплата</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+						<li>
+							<a href="#">FAQ</a>
+						</li>
+						<li>
+							<a href="#">Виртуальная приемная</a>
+						</li>
+					</ul>
+					<div class="footer-info">
+						<p>
+							100057, Узбекистан, г.Ташкент, Алмазарский р-н, ул. Шимолий Олмазор, дом 17Б
+							2017 – 2021 Частный акционерный коммерческий банк «Давр Банк» 
+						</p>
+						<p>
+							ЧАКБ «ДАВР БАНК» Генеральная лицензия № 71 ЦБ РУз от 29 сентября 2001 г.
+						</p>
+					</div>
+				</div>
+				<div class="footer-right">
+					<div class="footer-right__wrap">
+						<div class="footer-right__item">
+							<a href="#">71 207-40-40</a>
+							<p>
+								Единая информационная служба
+							</p>
+						</div>
+						<div class="footer-right__item">
+							<a href="#">71 248-35-10</a>
+							<p>
+								Телефон доверия
+							</p>
+						</div>
+						<ul class="footer-follow">
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/fb.svg" alt="ico">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/ok.svg" alt="ico">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/tg.svg" alt="ico">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/tw.svg" alt="ico">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/yt.svg" alt="ico">
+								</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">
+									<img src="img/inst.svg" alt="ico">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-right__wrap">
+						<div class="footer-right__item">
+							<a href="#">info@davrbank.uz</a>
+							<p>
+								Электронная почта
+							</p>
+						</div>
+						<div class="footer-download">
+							<a href="#">
+								<img src="img/google-play-white.svg" alt="ico">
+							</a>
+							<a href="#">
+								<img src="img/app-store-white.svg" alt="ico">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copy">
+				<div>
+					&copy; DAVR BANK 2021
+				</div>
+				<div>
+					Разработка сайта — FlyDev
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.custom-select.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="js/map.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
