@@ -1,0 +1,93 @@
+.main {
+    padding: 0;
+    background: #fff;
+}
+
+.main-carousel__item {
+    padding: 2rem 0 4rem;
+    min-height: 70vh;
+    justify-content: space-evenly;
+}
+
+.main-carousel__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.main-carousel__bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-carousel .owl-dots {
+    margin-top: -2rem;
+    z-index: 10;
+    position: relative;
+}
+
+.main-carousel__img {
+    margin: 0;
+    width: auto;
+    flex-shrink: 1;
+    min-width: 20rem;
+}
+
+.main-carousel__img img{
+    width: auto !important;
+    margin: 0 auto;
+}
+
+.main-carousel__content {
+    width: 25rem;
+    flex-shrink: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 1400px) {
+    .main-carousel__content {
+        margin-right: 5vw;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .main-carousel__img {
+        margin-left: 2rem;
+        width: 40%;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-carousel__img {
+        margin-left: 2rem;
+    }
+
+    .main-carousel__content {
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .main-carousel__item {
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+        padding-top: 2rem;
+        min-height: 0;
+    }
+
+    .main-carousel__content {
+        max-width: none;
+    }
+
+    .main-carousel__img {
+        max-width: 300px;
+        margin: 0 auto 2rem;
+        width: 100%;
+    }
+}

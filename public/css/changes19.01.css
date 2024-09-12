@@ -1,0 +1,40 @@
+@media (max-width: 767.98px) {
+    .header-bot__menu li .submenu .container {
+        padding-bottom: 2rem;
+    }
+
+    .header-bot__menu li .submenu-list li a {
+        padding-left: 0;
+    }
+
+    .header-bot__menu li > a {
+        text-align: left;
+    }
+
+    .header-bot__menu li .submenu-card {
+        width: 89vw;
+    }
+
+    .main-carousel__bg {
+        position: static;
+    }
+
+    .main-carousel__img {
+        display: none;
+    }
+
+    .main-carousel__item {
+        padding: 0; 
+    }
+
+    .main-carousel__content {
+        margin: 0;
+        padding: 1.3rem;
+        width: 100%;
+    }
+
+    .main-carousel .owl-dots {
+        display: none;
+    }
+
+}
